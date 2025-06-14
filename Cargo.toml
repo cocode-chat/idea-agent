@@ -1,5 +1,5 @@
 [package]
-name = "ideabase-ai"
+name = "idea-agent"
 version = "1.0.0"
 edition = "2024"
 

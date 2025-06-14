@@ -1770,23 +1770,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "idea-common"
-version = "0.1.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e57e1cd246cc24c5085ed49299c78c3326b67c75ee32414b9ea803bca9eb5c8d"
-dependencies = [
- "base64 0.22.1",
- "chrono",
- "lazy_static",
- "log",
- "rustflake",
- "serde",
- "serde_json",
- "tklog",
-]
-
-[[package]]
-name = "ideabase-ai"
+name = "idea-agent"
 version = "1.0.0"
 dependencies = [
  "actix-cors",
@@ -1800,6 +1784,22 @@ dependencies = [
  "serde",
  "serde_json",
  "tokio-test",
+]
+
+[[package]]
+name = "idea-common"
+version = "0.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e57e1cd246cc24c5085ed49299c78c3326b67c75ee32414b9ea803bca9eb5c8d"
+dependencies = [
+ "base64 0.22.1",
+ "chrono",
+ "lazy_static",
+ "log",
+ "rustflake",
+ "serde",
+ "serde_json",
+ "tklog",
 ]
 
 [[package]]
