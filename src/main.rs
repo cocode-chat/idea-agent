@@ -21,6 +21,6 @@ async fn main() -> std::io::Result<()> {
             .wrap(controller::cors())
             .configure(controller::register_routes)
     });
-    log::info!("IDEA-BASE starting at http://0.0.0.0:8080");
+    log::info!("IDEA-AGENT starting at http://0.0.0.0:8080");
     http_server.workers(4).bind(("0.0.0.0", 8080))?.run().await
 }
